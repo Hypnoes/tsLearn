@@ -1,0 +1,23 @@
+{
+  "name": "tslearn",
+  "version": "1.0.0",
+  "description": "Learn of typerscript",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hypnoes/tsLearn.git"
+  },
+  "keywords": [
+    "typescript",
+    "learn"
+  ],
+  "author": "Hypnoes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hypnoes/tsLearn/issues"
+  },
+  "homepage": "https://github.com/Hypnoes/tsLearn#readme"
+}
