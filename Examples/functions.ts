@@ -1,3 +1,7 @@
+///<reference path="../node_modules/@types/handlebars/index.d.ts" />
+///<reference path="../node_modules/@types/jquery/index.d.ts" />
+///<reference path="../node_modules/@types/q/index.d.ts" />
+
 class ViewAsync {
     private _container : string;
     private _templateUrl : string;
@@ -50,7 +54,7 @@ class ViewAsync {
 
     // tslint:disable-next-line:typedef
     private _compileHbsAsync(hbs: string) {
-        return Q.Promis((resolve, reject) => {
+        return Q.Promise((resolve, reject) => {
             try {
                 var template : any = Handlebars.compile(hbs);
                 resolve(template);
